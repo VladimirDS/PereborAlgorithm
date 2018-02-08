@@ -1,0 +1,17 @@
+//PereborAlgorithm: Сортировка значений вектора строк
+
+#include "stdafx.h"
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <string>
+using namespace std;
+
+int main() {
+	vector<string> nums = {"hello","word","good"};
+	sort(begin(nums), end(nums));
+	for (auto ff:nums)
+		cout << ff;
+	getchar();
+	return 0;
+}
